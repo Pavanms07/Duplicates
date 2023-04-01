@@ -2,7 +2,7 @@ import pandas as pd
 import os
 final=pd.DataFrame()
 # r"C:\Users\pavan\Downloads
-path = 'Downloads/Telegram Desktop/Pandas'
+path = './Downloads/Telegram Desktop/Pandas'
 for file in os.listdir(path):
     if 'data2' in file:
         p=path+'/'+file
